@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --tamanho-minimo: 10px;
+    --tamanho-médio: 20px;
+    --tamanho-max: 40px;
+    --color-principal: rgb(248, 234, 239);
+}
+
+.topo img {
+    width: calc(100% - 10px);
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 14px;
+}
+
+p {
+    font-size: var(--tamanho-médio);
+    margin: var(--tamanho-max);
+}
+
+
+h2,
+h1 {
+    margin-left: var(--tamanho-minimo);
+    font-size: 30px;
+}
+
+h1 {
+    font-size: var(--tamanho-max);
+}
+
+.sub-1 {
+    color: rgb(245, 59, 124);
+    font-size: 26px;
+}
+
+.preparacao {
+    margin: 10px;
+    background-color: rgb(248, 234, 239);
+    border-radius: var(--tamanho-médio);
+    border-color: rgb(255, 255, 255);
+    border: 0px;
+    padding: var(--tamanho-minimo);
+}
+
+.instrucao,
+.Etapas {
+    margin: 10px;
+    border-radius: var(--tamanho-médio);
+    border: 0px;
+    padding: var(--tamanho-minimo);
+
+}
+
+.instrucao {
+    padding: var(--tamanho-minimo);
+}
+
+li {
+    font-size: var(--tamanho-médio);
+    margin: 5px;
+}
+
+ul {
+    margin: var(--tamanho-médio);
+}
+
+td {
+    width: 50%;
+    margin: var(--tamanho-max);
+    padding: 0px;
+    font-size: var(--tamanho-médio);
+}
+
+table {
+    margin: var(--tamanho-médio);
+}
+
+@media (max-width:430px) {
+
+    .rodape {
+        font-size: 10px;
+    }
+}
