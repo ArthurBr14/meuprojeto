@@ -3,19 +3,31 @@
 }
 
 :root {
-    --tamanho-minimo: 10px;
+    --tamanho-minimo: 42px;
     --tamanho-médio: 20px;
     --tamanho-max: 40px;
+    --tamanho-max-2: 46px;
+    --tmanho-xmax: 71px;
     --color-principal: rgb(248, 234, 239);
 }
 
 
-#imagem_1 {
+.topo {
+    background-size: contain;
     display: flex;
     justify-content: center;
-    height: 100%;
-    margin: 10px;
+    height: 700px;
+    padding: 20px;
 
+}
+
+img {
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 100%;
+    height: 700px;
 }
 
 p {
@@ -26,8 +38,13 @@ p {
 
 h2,
 h1 {
+    margin-top: 43px;
     margin-left: var(--tamanho-minimo);
     font-size: 30px;
+}
+
+h2 {
+    color: #75463b;
 }
 
 h1 {
@@ -40,8 +57,9 @@ h1 {
 }
 
 .preparacao {
+    color: #90516c;
     margin: 10px;
-    background-color: rgb(248, 234, 239);
+    background-color: #fff7fc;
     border-radius: var(--tamanho-médio);
     border-color: rgb(255, 255, 255);
     border: 0px;
@@ -67,7 +85,7 @@ li {
 }
 
 ul {
-    margin: var(--tamanho-médio);
+    margin: var(--tamanho-max-2);
 }
 
 td {
@@ -77,13 +95,11 @@ td {
     font-size: var(--tamanho-médio);
 }
 
-table {
-    margin: var(--tamanho-médio);
+.calorias {
+    color: #734e45;
 }
 
-@media (max-width:430px) {
 
-    .rodape {
-        font-size: 10px;
-    }
+table {
+    margin: var(--tamanho-médio);
 }
