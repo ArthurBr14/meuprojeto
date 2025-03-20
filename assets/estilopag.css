@@ -9,18 +9,13 @@
     --color-principal: rgb(248, 234, 239);
 }
 
-.imagem_1 {
+
+#imagem_1 {
     display: flex;
     justify-content: center;
     height: 100%;
     margin: 10px;
-}
 
-.topo img {
-
-    object-fit: cover;
-    margin: 20px;
-    border-radius: 14px;
 }
 
 p {
